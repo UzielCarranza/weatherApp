@@ -1,3 +1,97 @@
 * {
   outline: 1px solid red;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(47, 79, 79);
+}
+
+main {
+  width: 410px;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+/*
+Input section 
+*/
+
+#inputs {
+  outline: 2px solid blue;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  justify-content: center;
+  background-color: #fff;
+  width: auto;
+  height: auto;
+}
+.city--input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.inp--city {
+  padding: 10px;
+  text-align: center;
+}
+
+.btn {
+  width: auto;
+  height: auto;
+  padding: 6px;
+  margin: 10px;
+}
+
+/*
+display section
+*/
+
+#display--weather {
+  outline: 2px solid blue;
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
+  justify-content: center;
+  background-color: #fff;
+  width: auto;
+  height: auto;
+}
+.container {
+  width: auto;
+  height: 45vh;
+}
+
+/*
+after javascript container
+*/
+
+.container h2 {
+  padding: 5px 0;
+  text-align: center;
+  background-color: #fff;
+  color: black;
+}
+.container h2 span {
+  font-size: 20px;
+  color: black;
+}
+.container p {
+  margin: 20px 50px;
+  text-align: center;
+  color: black;
+  background-color: #fff;
+}
+
+.container p span {
+  color: black;
+  font-size: 20px;
 }

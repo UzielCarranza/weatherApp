@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>weatherApp</title>
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/js.js"></script>
 </head>
 <body>
     <main>
         <section class="main">
-            <header>One</header>
+            <h1>Get The Weather For Today</h1>
         </section>
         <section id="inputs">
             <div class="city--input">
-            <input type="text" id="city--input" placeholder="Enter a location">
-            <input type="submit" id="submit--button" value="submit" > 
+            <input class="inp--city" type="text" id="city--input" placeholder="Enter a location">
+            <input class="btn" type="submit" id="submit--button" value="submit" > 
             </div>
         </section>
         <section id="display--weather">
             <div class="container">
-
+                <h2 id="city--output"></h2>
+                <p id="description--city"></p>
+                <p id="temp--city"></p>
+                <p id="city--wind"></p>
             </div>
         </section>
     </main>
